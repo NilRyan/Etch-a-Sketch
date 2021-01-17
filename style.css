@@ -35,9 +35,24 @@ body {
 }
 .drawing-block{
     display: grid;
-    grid-template-columns: repeat(16, 37.5px);
-    height: 600px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
     width: 600px;
-    margin-top: 0;
+    height: 600px;
+    margin-top: 20px;
     
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .drawing-block{
+
+        width: 450px;
+        height: 450px;
+        margin-top: 5px;
+    }
+    html{
+        font-size: 10px;
+    }
 }

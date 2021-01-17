@@ -29,6 +29,14 @@ for (let i = 0; i < 256; i++) {
     drawingBlock.appendChild(colorBlock);
 }
 
+//for mobile
+drawingBlock.addEventListener('touchstart', function (e) {
+    e.target.style.backgroundColor = setColor(color, random);
+
+})
+
+
+
 
 
 //reset button
