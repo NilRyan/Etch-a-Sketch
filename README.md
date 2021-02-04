@@ -1,4 +1,6 @@
-# Etch-a-Sketch
+# Etch-a-Sketch using HTML/CSS/JS
 
-1. DOM manipulation methods
-2. basic ui with buttons and css flexbox plus grid
+## Learning Outcomes:
+  1. DOM manipulation methods
+  2. BASIC UI with buttons and css flexbox plus grid
+  
